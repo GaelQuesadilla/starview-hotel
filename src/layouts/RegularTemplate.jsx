@@ -1,3 +1,4 @@
+import { Footer } from "../components/footer/Footer";
 import { NavigationBar } from "../components/navbar/NavigationBar";
 
 export const RegularTemplate = (props) => {
@@ -7,6 +8,8 @@ export const RegularTemplate = (props) => {
         <NavigationBar />
 
         {props.children}
+
+        <Footer />
       </div>
     </>
   );
