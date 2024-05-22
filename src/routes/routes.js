@@ -1,12 +1,12 @@
-export const INDEX = "/";
+export const INDEX = "/starview-hotel/";
 
-export const ABOUT_US = "/nosotros";
-export const ACTIVITIES = "/actividades";
-export const HISTORY = "/historia";
-export const LOCATION = "/ubicacion";
+export const ABOUT_US = "/starview-hotel/nosotros";
+export const ACTIVITIES = "/starview-hotel/actividades";
+export const HISTORY = "/starview-hotel/historia";
+export const LOCATION = "/starview-hotel/ubicacion";
 export const INSTAGRAM = "/";
-export const TEAM = "/equipo";
-export const CONTACT = "/contacto";
-export const TRAVEL = "/viaje";
-export const EMAIL = "/email";
-export const PHONE = "/telefono";
+export const TEAM = "/starview-hotel/equipo";
+export const CONTACT = "/starview-hotel/contacto";
+export const TRAVEL = "/starview-hotel/viaje";
+export const EMAIL = "/starview-hotel/email";
+export const PHONE = "/starview-hotel/telefono";
