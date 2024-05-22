@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <>
-      <Container fluid className="m-0 py-5 text-light" bg="dark">
+      <Container fluid className="m-0 py-5 text-light bg-secondary">
         <Row>
           <Col className="col-xl">
             <h5>Starview</h5>

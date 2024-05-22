@@ -1,7 +1,29 @@
 .main-cover {
+  position: relative;
+  &__title {
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    text-align: center;
+    width: 100vw;
+  }
+  &__subtitle {
+    position: absolute;
+    top: 55%;
+    z-index: 999;
+    text-align: center;
+    width: 100vw;
+  }
+  &__text {
+    position: absolute;
+    top: 60%;
+    z-index: 999;
+    text-align: center;
+    width: 100vw;
+  }
   &__image {
     object-fit: cover;
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     z-index: 100;
   }

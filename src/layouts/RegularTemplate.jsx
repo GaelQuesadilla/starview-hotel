@@ -6,7 +6,6 @@ export const RegularTemplate = (props) => {
     <>
       <div data-bs-theme="dark">
         <NavigationBar />
-
         {props.children}
 
         <Footer />

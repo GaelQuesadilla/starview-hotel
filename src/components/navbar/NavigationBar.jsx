@@ -8,7 +8,7 @@ import { GiStarsStack } from "react-icons/gi";
 export const NavigationBar = () => {
   return (
     <>
-      <Navbar bg="dark" className="navbar py-3" fixed="top" expand="md">
+      <Navbar bg="dark" className="navbar py-3" expand="md">
         <Container fluid>
           <Navbar.Brand to={ROUTES.INDEX} as={Link}>
             Starview <GiStarsStack />
