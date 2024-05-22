@@ -10,6 +10,7 @@ import arco from "/images/arcocsl.jpg";
 import { BasicCardGroup } from "../components/cardgroup/BasicCardGroup";
 import { BasicCard } from "../components/cardgroup/BasicCard";
 import telescopio from "/images/telescopio.jpg";
+import * as ROUTES from "./routes.js";
 
 import bubbleHotel from "/images/bubble.jpg";
 
@@ -58,22 +59,34 @@ export const Index = () => {
 
       <Content>
         <BasicCardGroup>
-          <BasicCard title="Nuestros hoteles" img={bubbleHotel} to="/hoteles">
+          <BasicCard
+            title="Nuestros hoteles"
+            img={bubbleHotel}
+            to={ROUTES.LOCATION}
+          >
             Ofrecemos un servicio de hospedaje de primera clase con
             instalaciones únicas, como burbujas de techo transparente para
             observación de estrellas
           </BasicCard>
-          <BasicCard title="Nuestra historia" img={telescopio} to="/historia">
+          <BasicCard
+            title="Nuestra historia"
+            img={telescopio}
+            to={ROUTES.HISTORY}
+          >
             Starview Hotel nació del espíritu emprendedor de seis visionarios
             estudiantes de Baja California Sur. Un eco-hotel de lujo en Los
             Cabos, donde la naturaleza y la sostenibilidad se unen
           </BasicCard>
-          <BasicCard title="Actividades" img={senderismo} to="/actividades">
+          <BasicCard
+            title="Actividades"
+            img={senderismo}
+            to={ROUTES.ACTIVITIES}
+          >
             Disfruta de actividades deportivas únicas en Starview Hotel:
             gimnasio ecológico, senderismo, yoga, natación y ciclismo, todo en
             la naturaleza.
           </BasicCard>
-          <BasicCard title="Nuestra ubicación" img={arco} to="/ubicación">
+          <BasicCard title="Nuestra ubicación" img={arco} to={ROUTES.LOCATION}>
             Disfruta de un entorno virgen, ideal para la observación de
             estrellas y la conexión con la naturaleza a solo 10 minutos de San
             José del Cabo.

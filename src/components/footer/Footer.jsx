@@ -2,6 +2,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+import * as ROUTES from "../../routes/routes.js";
+
 export const Footer = () => {
   return (
     <>
@@ -31,7 +33,7 @@ export const Footer = () => {
           <Col>
             <p className="text text-center">
               <Link
-                to={"#"}
+                to={ROUTES.TEAM}
                 className="link-light link-underline link-underline-opacity-0 "
               >
                 Nuestro equipo
@@ -41,7 +43,7 @@ export const Footer = () => {
           <Col>
             <p className="text text-center">
               <Link
-                to={"#"}
+                to={ROUTES.EMAIL}
                 className="link-light link-underline link-underline-opacity-0"
               >
                 Correo
@@ -51,7 +53,7 @@ export const Footer = () => {
           <Col>
             <p className="text text-center">
               <Link
-                to={"#"}
+                to={ROUTES.LOCATION}
                 className="link-light link-underline link-underline-opacity-0"
               >
                 Nuestras ubicaciones
@@ -63,7 +65,7 @@ export const Footer = () => {
           <Col>
             <p className="text text-center">
               <Link
-                to={"#"}
+                to={ROUTES.HISTORY}
                 className="link-light link-underline link-underline-opacity-0"
               >
                 Nuestra historia
@@ -73,7 +75,7 @@ export const Footer = () => {
           <Col>
             <p className="text text-center">
               <Link
-                to={"#"}
+                to={ROUTES.PHONE}
                 className="link-light link-underline link-underline-opacity-0"
               >
                 Teléfono
@@ -83,7 +85,7 @@ export const Footer = () => {
           <Col>
             <p className="text text-center">
               <Link
-                to={"#"}
+                to={ROUTES.TRAVEL}
                 className="link-light link-underline link-underline-opacity-0"
               >
                 Viajes
@@ -92,33 +94,15 @@ export const Footer = () => {
           </Col>
         </Row>
         <Row>
+          <Col></Col>
+          <Col></Col>
           <Col>
             <p className="text text-center">
               <Link
-                to={"#"}
+                to={ROUTES.ACTIVITIES}
                 className="link-light link-underline link-underline-opacity-0"
               >
-                LINK
-              </Link>
-            </p>
-          </Col>
-          <Col>
-            <p className="text text-center">
-              <Link
-                to={"#"}
-                className="link-light link-underline link-underline-opacity-0"
-              >
-                LINK
-              </Link>
-            </p>
-          </Col>
-          <Col>
-            <p className="text text-center">
-              <Link
-                to={"#"}
-                className="link-light link-underline link-underline-opacity-0"
-              >
-                LINK
+                Actividades
               </Link>
             </p>
           </Col>

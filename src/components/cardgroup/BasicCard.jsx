@@ -13,7 +13,7 @@ export const BasicCard = (props) => {
         <Card.Footer className="bg-primary">
           <small className="text-light text">
             <Link
-              to={"#"}
+              to={props.to}
               className=" link link-underline link-underline-opacity-0 link-light"
             >
               Leer más
