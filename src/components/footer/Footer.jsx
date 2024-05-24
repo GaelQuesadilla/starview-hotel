@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import * as ROUTES from "../../routes/routes.js";
@@ -16,6 +16,8 @@ export const Footer = () => {
           <Col className="fs-3 text-end mx-4 ">
             <FaFacebook />
             <FaInstagram />
+            <FaTwitter />
+            <FaWhatsapp />
           </Col>
         </Row>
         <Row>

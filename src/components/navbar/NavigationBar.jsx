@@ -22,6 +22,15 @@ export const NavigationBar = () => {
               <Nav.Link as={Link} to={ROUTES.ABOUT_US}>
                 Sobre nosotros
               </Nav.Link>
+              <Nav.Link as={Link} to={ROUTES.CONTACT}>
+                Contacto
+              </Nav.Link>
+              <Nav.Link as={Link} to={ROUTES.LOCATION}>
+                Ubicación
+              </Nav.Link>
+              <Nav.Link as={Link} to={ROUTES.ACTIVITIES}>
+                Actividades
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
