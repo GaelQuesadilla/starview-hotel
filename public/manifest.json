@@ -1,0 +1,9 @@
+{
+  "name": "Starview Hotel",
+  "short_name": "Starview",
+  "description": "Conoce nuestros increíbles hoteles",
+  "start_url": "/starview-hotel/",
+  "display": "standalone",
+  "background_color": "#1b1b1a",
+  "theme_color": "#007bff"
+}

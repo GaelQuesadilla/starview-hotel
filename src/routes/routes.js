@@ -8,5 +8,5 @@ export const INSTAGRAM = "/";
 export const TEAM = "/starview-hotel/equipo";
 export const CONTACT = "/starview-hotel/contacto";
 export const TRAVEL = "/starview-hotel/viaje";
-export const EMAIL = "/starview-hotel/email";
-export const PHONE = "/starview-hotel/telefono";
+export const EMAIL = "/starview-hotel/contacto";
+export const PHONE = "/starview-hotel/contacto";

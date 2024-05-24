@@ -14,7 +14,7 @@ export const Activities = () => {
 
         <div className="m-0 p-0 main-cover__content">
           <h1 className="text fs-1 mx-0 my-2">STARVIEW</h1>
-          <h2 className="mx-0 my-2">Visita las estrellas</h2>
+          <h2 className="mx-0 my-2">DIVIERTETE EN LAS ESTRELLAS</h2>
           <p className="mx-0 my-2">
             <a
               className="link-underline link-underline-opacity-0 link link-light"
